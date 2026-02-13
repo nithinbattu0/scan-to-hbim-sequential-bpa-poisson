@@ -194,32 +194,6 @@ def run_pipeline(input_path, out_path):
     vprint("\nCounts: orig:", n_orig, "down:", len(pcd_down.points),
            "poisson:", len(pcd_filled.points), "final:", len(pcd_final.points), "\n")
 
-    vprint("Opening viewer (black bg, strong white pts)...")
-    try:
-        vis = o3d.visualization.Visualizer()
-        vis.create_window(window_name="Open 3D", width=1400, height=900)
-        vis.add_geometry(pcd_final)
-
-        # Force white color properly
-        pcd_final.paint_uniform_color([1, 1, 1])
-
-        opt = vis.get_render_option()
-        opt.background_color = np.asarray([0.0, 0.0, 0.0])
-        opt.point_size = 1.0       
-        opt.light_on = False        
-
-        # Auto-fit camera properly
-        ctr = vis.get_view_control()
-        ctr.set_zoom(0.6)
-
-        vis.update_renderer()
-        vis.run()
-        vis.destroy_window()
-
-    except Exception as e:
-        vprint("Viewer failed (OpenGL). File saved. Error:", e)
-
-
 
     vprint("Total time:", round(time.time()-t0,2), "s")
 
