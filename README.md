@@ -6,6 +6,7 @@ The framework integrates adaptive point cloud preprocessing with a sequential su
 **The implementation is designed for research reproducibility and academic evaluation.**
 
 **1. Introduction**
+
 Scan-to-HBIM workflows require robust surface reconstruction from segmented laser-scanned point clouds. However, several challenges commonly arise:
 Noise and irregular density
 Fragmented surfaces
