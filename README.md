@@ -1,4 +1,4 @@
-# Scan-To-HBIM: Sequential BPA–Poisson Reconstruction Framework
+# Scan-To-HBIM: Sequential BPA–Poisson Surface Reconstruction Framework
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18635433.svg)](https://doi.org/10.5281/zenodo.18635433)
 
@@ -142,7 +142,7 @@ https://doi.org/10.5281/zenodo.18635433
 
 If you use this software in academic work, please cite:
 
-Battu Nithin. (2026). *Scan-To-HBIM: Sequential BPA–Poisson Scan-to-HBIM Pipeline (Version 1.0.1)*. Zenodo. https://doi.org/10.5281/zenodo.18635433
+Battu Nithin (2026). *Scan-To-HBIM: Sequential BPA–Poisson Surface Reconstruction Framework* (Version 1.0.1). Zenodo. https://doi.org/10.5281/zenodo.18635433
 
 
 **10. License**
@@ -152,7 +152,11 @@ This project is licensed under the MIT License.
 **Author**
 
 Battu Nithin
+
 M.Tech – Construction Technology and Management
-Scan-to-HBIM Research
+
 
 **GitHub:** https://github.com/nithinbattu0
+
+**ORCID:** https://orcid.org/0009-0005-5274-0718
+
