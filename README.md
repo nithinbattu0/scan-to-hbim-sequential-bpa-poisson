@@ -1,5 +1,8 @@
-**Abstract**
+# Scan-To-HBIM: Sequential BPA–Poisson Reconstruction Framework
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18635433.svg)](https://doi.org/10.5281/zenodo.18635433)
+
+## Abstract
 This repository presents a reproducible Python implementation of a semi-automated Scan-to-HBIM workflow for converting segmented point cloud data into geometrically consistent surface meshes suitable for architectural and structural modeling.
 The framework integrates adaptive point cloud preprocessing with a sequential surface reconstruction strategy combining the Ball Pivoting Algorithm (BPA) and Poisson surface reconstruction. The method incorporates automatic parameter estimation, mesh quality evaluation, connected component filtering, and geometric cleaning to ensure stable and reproducible results.
 
