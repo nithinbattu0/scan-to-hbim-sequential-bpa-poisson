@@ -12,7 +12,6 @@ parser = argparse.ArgumentParser(description="Sequential BPA–Poisson Surface R
 
 parser.add_argument("--input", required=True, help="Path to input PLY file")
 parser.add_argument("--output", required=True, help="Path to output mesh PLY file")
-
 args = parser.parse_args()
 
 INPUT_PLY = args.input
