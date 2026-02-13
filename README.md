@@ -133,7 +133,19 @@ Extremely sparse datasets may require parameter adjustment.
 Very large datasets may require memory optimization.
 The pipeline assumes pre-segmented input data.
 
-**9. License**
+
+## 9. Citation and DOI
+
+The archived and DOI-registered version of this software is available via Zenodo:
+
+https://doi.org/10.5281/zenodo.18635433
+
+If you use this software in academic work, please cite:
+
+Battu, N. (2026). *Scan-To-HBIM: Sequential BPA–Poisson Scan-to-HBIM Pipeline (Version 1.0.1)*. Zenodo. https://doi.org/10.5281/zenodo.18635433
+
+
+**10. License**
 
 This project is licensed under the MIT License.
 
