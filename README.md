@@ -16,10 +16,15 @@ These issues often lead to unstable or incomplete meshing results.
 **This framework addresses these challenges through:**
 
 Adaptive point cloud preprocessing
+
 Automatic normal estimation
+
 Sequential BPA reconstruction
+
 Conditional Poisson reconstruction fallback
+
 Mesh component filtering and geometric cleaning
+
 
 **2. Workflow Overview**
 
@@ -40,11 +45,17 @@ pointcloud_preprocessing.py
 **2.2 Sequential Surface Reconstruction**
 
 Automatic BPA radius estimation
+
 Mesh quality evaluation
+
 Conditional fallback to Poisson reconstruct
+
 Connected component filtering
+
 Bounding box cropping
+
 Final mesh cleanup
+
 
 **Script:**
 
@@ -102,10 +113,15 @@ requirements.txt
 **7. Applications**
 
 Heritage digitization
+
 Structural documentation
+
 Scan-to-CAD workflows
+
 HBIM research
+
 Academic evaluation
+
 
 **8. Limitations**
 
