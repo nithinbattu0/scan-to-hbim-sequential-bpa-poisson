@@ -142,7 +142,7 @@ https://doi.org/10.5281/zenodo.18635433
 
 If you use this software in academic work, please cite:
 
-Battu, Nithin. (2026). *Scan-To-HBIM: Sequential BPA–Poisson Scan-to-HBIM Pipeline (Version 1.0.1)*. Zenodo. https://doi.org/10.5281/zenodo.18635433
+Battu Nithin. (2026). *Scan-To-HBIM: Sequential BPA–Poisson Scan-to-HBIM Pipeline (Version 1.0.1)*. Zenodo. https://doi.org/10.5281/zenodo.18635433
 
 
 **10. License**
