@@ -14,6 +14,7 @@ Small disconnected mesh components
 These issues often lead to unstable or incomplete meshing results.
 
 **This framework addresses these challenges through:**
+
 Adaptive point cloud preprocessing
 Automatic normal estimation
 Sequential BPA reconstruction
@@ -25,6 +26,7 @@ Mesh component filtering and geometric cleaning
 The implemented pipeline consists of two main stages:
 
 **2.1 Point Cloud Preprocessing**
+
 Adaptive voxel-based downsampling
 Local spacing estimation
 Feature-aware keypoint preservation
@@ -32,9 +34,11 @@ Statistical outlier removal
 Automatic normal estimation
 
 **Script:**
+
 pointcloud_preprocessing.py
 
 **2.2 Sequential Surface Reconstruction**
+
 Automatic BPA radius estimation
 Mesh quality evaluation
 Conditional fallback to Poisson reconstruct
@@ -43,14 +47,17 @@ Bounding box cropping
 Final mesh cleanup
 
 **Script:**
+
 sequential_bpa_poisson_meshing.py
 
 **3. Installation**
+
 3.1 Clone Repository
 git clone https://github.com/nithinbattu0/Scan-To-HBIM.git
 cd Scan-To-HBIM
 
 **3.2 Create Virtual Environment (Recommended)**
+
 python -m venv venv
 
 Windows:
@@ -61,16 +68,21 @@ Linux / macOS:
 source venv/bin/activate
 
 **3.3 Install Dependencies**
+
 pip install -r requirements.txt
 
 **4. Usage**
+
 **4.1 Preprocessing Stage**
+
 python pointcloud_preprocessing.py --input sample_segmented_input.ply --output preprocessed.ply
 
 **4.2 Surface Reconstruction Stage**
+
 python sequential_bpa_poisson_meshing.py --input preprocessed.ply --output final_mesh.ply
 
 **5. Reproducibility**
+
 To ensure academic reproducibility:
 A sample segmented dataset (sample_segmented_input.ply) is included.
 All algorithmic parameters are automatically derived from geometric properties of the input data.
@@ -78,14 +90,17 @@ No manual tuning is required for standard segmented datasets.
 The complete workflow can be reproduced using only the provided repository files.
 
 **6. Dependencies**
+
 Python 3.8+
 Open3D
 NumPy
 
 **All required packages are listed in:**
+
 requirements.txt
 
 **7. Applications**
+
 Heritage digitization
 Structural documentation
 Scan-to-CAD workflows
@@ -93,14 +108,17 @@ HBIM research
 Academic evaluation
 
 **8. Limitations**
+
 Extremely sparse datasets may require parameter adjustment.
 Very large datasets may require memory optimization.
 The pipeline assumes pre-segmented input data.
 
 **9. License**
+
 This project is licensed under the MIT License.
 
 **Author**
+
 Battu Nithin
 M.Tech – Construction Technology and Management
 Scan-to-HBIM Research
